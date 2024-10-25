@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+canvas {
+    width: 100% !important; /* Important to override inline styles */
+    height: 300px !important; /* Increased height for better visibility */
+}
+
+.container {
+    max-width: 1200px; /* Maximum width for the container */
+    margin: auto; /* Center the container */
+}
+
+.form-group {
+    margin-bottom: 30px; /* Space below form elements */
+}
+
+.card-header {
+    background-color: #007bff; /* Blue background for card headers */
+    color: white; /* White text color for card headers */
+}
